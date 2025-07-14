@@ -16,6 +16,8 @@ const MyWork = () => {
         {mywork_data.map((work, index) => {
           return  <a key={index} href={work.w_link} target="_blank" rel="noopener noreferrer">
                     <img src={work.w_img} alt="" />
+                    <h2>{work.w_name}</h2>
+                    <p>{work.w_desc}</p>
                   </a>
         })}
       </div>

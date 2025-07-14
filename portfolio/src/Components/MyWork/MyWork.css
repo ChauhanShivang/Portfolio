@@ -15,6 +15,20 @@
     cursor: pointer;
 }
 
+.mywork-container a{
+    text-decoration: none;
+    color: white;
+    line-height: 28px;
+}
+
+.mywork-container h2{
+    font-weight: 800;
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .mywork-container img:hover{
     transform: scale(1.05);
     border: 4px solid #ff00ff;

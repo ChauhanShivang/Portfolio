@@ -6,25 +6,29 @@ import project4_img from '../assets/project_4.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
+        w_name:"Hotel Booking Platform",
+        w_desc: "Developed a full-stack hotel booking website with room listings, user authentication, real-time availability checks, and Stripe payment integration. Features include owner dashboards, socket-based updates, and secure JWT-based APIs.",
         w_img:project1_img,
         w_link: "https://hotel-booking-frontend-blue.vercel.app/"
     },
     {
         w_no:2,
-        w_name:"Web design",
+        w_name:"Food Ordering Platform",
+        w_desc: "Built a responsive online food ordering system with user login, live order tracking, and an admin panel for managing items, orders, and users. Integrated REST APIs and MongoDB for data handling.",
         w_img:project2_img,
         w_link: "https://food-del-frontend-eta.vercel.app/"
     },
     {
         w_no:3,
-        w_name:"Web design",
+        w_name:"Real Time Chat App",
+        w_desc: "Created a real-time chat app supporting private messaging using Socket.io. Included user login, chat history, and active user updates with JWT authentication and MongoDB backend.",
         w_img:project3_img,
         w_link: "https://chat-app-gold-theta.vercel.app/login"
     },
     {
         w_no:4,
-        w_name:"Web design",
+        w_name:"Spotify Clone",
+        w_desc: "Built a Spotify-inspired music streaming web app with playlists, and real-time song playback UI. Implemented audio controls, dynamic song fetching, and RESTful APIs using MERN stack.",
         w_img:project4_img,
         w_link: "https://spotify-frontend-rouge.vercel.app/"
     },
