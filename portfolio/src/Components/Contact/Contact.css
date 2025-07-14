@@ -161,8 +161,12 @@
     }
 
     .contact-right input{
-        width: 90%;
+        width: auto;
         font-size: 20px;
+    }
+    
+    .contact-right textarea{
+        width: auto;
     }
 
     .contact-submit{
